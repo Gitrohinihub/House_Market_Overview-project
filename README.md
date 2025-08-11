@@ -114,8 +114,7 @@ For a **real estate company or investor**, this helps:
 
 ---
 
-📊 Outputs
-- **PDF Report** – Detailed static summary of findings  
+📊 Outputs  
 - **Interactive Dashboard** – [View Power BI App Link](https://app.powerbi.com/links/AshUpY7P1G?ctid=c9b30289-5c60-41dc-85c2-d8862dea8925&pbi_source=linkShare)
 
 ---
