@@ -52,7 +52,10 @@ Stakeholders like investors, realtors, and policymakers need **clear, data-drive
 2. **Sales Performance** – Regional sales, units sold, monthly & quarterly trends
 3. **Pricing Analysis** – Avg purchase/offer price by house type, inflation/interest/yield metrics
 4. **Property Size & Value** – Avg SQM and price per SQM by house type
-5. **Key Influencers** – Factors driving purchase price
+
+![image link](https://github.com/Gitrohinihub/House_Market_Overview/blob/e9b13980ae0ad20c2cabf7f52473b5f0d4615272/Page%201st.png)
+![image link](https://github.com/Gitrohinihub/House_Market_Overview/blob/e9b13980ae0ad20c2cabf7f52473b5f0d4615272/Page%202nd.png)
+![image link](https://github.com/Gitrohinihub/House_Market_Overview/blob/e9b13980ae0ad20c2cabf7f52473b5f0d4615272/Page%203rd.png)
 
 ---
 
