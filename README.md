@@ -53,9 +53,9 @@ Stakeholders like investors, realtors, and policymakers need **clear, data-drive
 3. **Pricing Analysis** – Avg purchase/offer price by house type, inflation/interest/yield metrics
 4. **Property Size & Value** – Avg SQM and price per SQM by house type
 
-![image link](https://github.com/Gitrohinihub/House_Market_Overview/blob/e9b13980ae0ad20c2cabf7f52473b5f0d4615272/Page%201st.png)
-![image link](https://github.com/Gitrohinihub/House_Market_Overview/blob/e9b13980ae0ad20c2cabf7f52473b5f0d4615272/Page%202nd.png)
-![image link](https://github.com/Gitrohinihub/House_Market_Overview/blob/e9b13980ae0ad20c2cabf7f52473b5f0d4615272/Page%203rd.png)
+![image link](https://github.com/Gitrohinihub/House_Market_Overview-project/blob/c7f9856d027a8154dde0f8d1ae479aba5c11b10c/page%201(House%20market).png)
+![image link](https://github.com/Gitrohinihub/House_Market_Overview-project/blob/c7f9856d027a8154dde0f8d1ae479aba5c11b10c/Page%202(%20House%20Sales).png)
+![image link](https://github.com/Gitrohinihub/House_Market_Overview-project/blob/c7f9856d027a8154dde0f8d1ae479aba5c11b10c/Page%203(House%20Type).png)
 
 ---
 
