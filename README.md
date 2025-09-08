@@ -35,7 +35,7 @@ Power Query in Power BI was used to clean and standardize data, handling missing
   4. **Average Inflation / Interest / Yield** by house type
   5. **Key Influencers** analysis for purchase price drivers
 - **Prediction Metrics**: Used historical trends and ratios to estimate future pricing
-![]()
+![](https://github.com/Gitrohinihub/House_Market_Overview-project/blob/aa141ff79b9cacddf5c9c3484f0164bbc5b06e3b/Dax%20File.png)
 
 
 ## 7. Analyze & Visualization
