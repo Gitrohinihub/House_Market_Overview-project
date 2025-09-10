@@ -113,6 +113,6 @@ For a **real estate company or investor**, this helps:
 - **Interactive Dashboard** – [View Power BI App Link](https://app.powerbi.com/links/AshUpY7P1G?ctid=c9b30289-5c60-41dc-85c2-d8862dea8925&pbi_source=linkShare)
 
 ## 13.Contact Links
-- 💼 LinkedIn: [Rohini Singh](https://www.linkedin.com/in/rohini-singh-8a97a1229)
+- 💼 LinkedIn: [Rohini Singh](https://www.linkedin.com/in/rohini-singh-)
 - 💻 GitHub: [Gitrohinihub](https://github.com/Gitrohinihub)
 - ✉️ Email: miss.rohini09coder@gmail.com
