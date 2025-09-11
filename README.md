@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 This project utilises Power BI to provide a comprehensive, end-to-end housing market analysis, leveraging public real estate data from Denmark (1992–2024) with forecasts extending to 2026.  
-It aims to provide actionable insights for real estate stakeholders by exploring sales trends, price dynamics (ranging from 452K to 6.5M), and regional performance, addressing a **-0.75% year-over-year (YOY) decline** in regular sales.
+It aims to provide actionable insights for real estate stakeholders by exploring sales trends, price dynamics (ranging from $ 452,000 to $ 6.5 million), and regional performance, addressing a **-0.75% year-over-year (YOY) decline** in regular sales.
 
 ## 2. Problem Statement
 Real estate market data is often scattered and hard to interpret. Stakeholders like investors, realtors, and policymakers need clear, data-driven insights to:
@@ -60,12 +60,12 @@ The project focuses on mitigating the -0.75% YOY decline in regular sales and im
 ## 8. Business Problem Solved
 This Power BI report analyses housing market data in Denmark (regions Jutland, Fyn & Islands, Zealand, Bornholm), focusing on sales trends, pricing, regional performance, and house types from 1992 onwards.
 
-### 8.1 Core Business Problem It Solves
+#### 8.1 Core Business Problem It Solves
 - Optimise housing sales strategies to maximise revenue  
 - Understand price dynamics  
 - Identify growth opportunities  
 
-### 8.2 Key Challenges Addressed
+#### 8.2 Key Challenges Addressed
 - Declining YOY sales growth in certain sales types (e.g., -0.75 for regular sales)  
 - Variations in median sales prices by region (e.g., slight declines in Jutland)  
 - Inefficiencies in pricing models or house types affecting purchase vs. offer prices  
