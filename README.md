@@ -50,9 +50,13 @@ The project focuses on mitigating the -0.75% YOY decline in regular sales and im
   - Identified a -0.75% YOY decline in regular sales (vs. 0.29% for auctions), with 95% prediction accuracy for high-value segments.  
   - Highlighted Jutland’s slight price declines (-0.1) and Zealand’s dominance (95bn sales).  
 
-- **Outputs**: Interactive dashboard and detailed PDF report for static viewing.  
-- *(Image links: image link, image link, image link)*  
+- **Outputs**: [Report PDF](https://github.com/Gitrohinihub/House_Market_Overview-project/blob/bea5a2791bfb980ef63cc0f41c95189fffee5f74/House%20Market%20Analysis%20Report.pdf).
+- Report pages:
+- [](https://github.com/Gitrohinihub/House_Market_Overview-project/blob/78d5c1c56a958a62f07fefc2d85d7763dccfd0f7/page%201(House%20market).png)
+- [](https://github.com/Gitrohinihub/House_Market_Overview-project/blob/78d5c1c56a958a62f07fefc2d85d7763dccfd0f7/Page%202(%20House%20Sales).png)
+- [](https://github.com/Gitrohinihub/House_Market_Overview-project/blob/78d5c1c56a958a62f07fefc2d85d7763dccfd0f7/Page%203(House%20Type).png)
 
+  
 ## 8. Business Problem Solved
 This Power BI report analyses housing market data in Denmark (regions Jutland, Fyn & Islands, Zealand, Bornholm), focusing on sales trends, pricing, regional performance, and house types from 1992 onwards.
 
