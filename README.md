@@ -76,21 +76,21 @@ This Power BI report analyses housing market data in Denmark (regions Jutland, F
 - Reduce losses from underperforming areas or property types  
 
 ## 9. Business Recommendations
-### 9.1 Focus on High-Growth Sales Types and Regions
+#### 9.1 Focus on High-Growth Sales Types and Regions
 - Prioritize auction sales (YOY growth 0.29) over regular_sale (-0.75)  
 - Invest more in Zealand (95bn sales, yield ~4.2%) and Jutland (81bn sales)  
 - Reallocate marketing budgets to promote auctions in low-growth areas → Aim for 10–15% sales increase  
 
-### 9.2 Optimise Pricing and Offer Strategies
+#### 9.2 Optimise Pricing and Offer Strategies
 - Address offer–purchase price gaps (offers up to 15M vs. purchases at 10M)  
 - Age influences purchase price (+481.6K for properties aged 1–16 years)  
 - Adjust pricing models for newer properties and auctions → Potential +20% increase in avg purchase price  
 
-### 9.3 Target Profitable House Types
+#### 9.3 Target Profitable House Types
 - Focus on farms (highest avg price 2.7M & SQM price 28.7K) and villas (yield 4.6 & 4.2)  
 - Offer discounts/bundles for low-performing types (e.g., townhouses at 11.9K SQM) → Target 15% revenue uplift  
 
-### 9.4 Monitor and Mitigate Declines
+#### 9.4 Monitor and Mitigate Declines
 - Minor drops in median sales price (e.g., -0.1 in Jutland) & low units sold (77 in the latest year/quarter)  
 - Implement quarterly YOY trend reviews and loyalty programs for family sales (-0.21 growth) → Stabilize revenue at ~13bn  
 
