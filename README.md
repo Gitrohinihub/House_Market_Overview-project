@@ -1,116 +1,108 @@
-# Health Data Analysis – Power BI
+# House Market Data Analysis – Power BI
 
 ## 1. Introduction
-This project leverages Power BI to analyze health data across multiple regions from 2000–2024, with forecasts extending to 2026.  
-It aims to provide actionable insights for policymakers, hospitals, and health organizations by exploring patient trends, hospital performance, disease prevalence, and healthcare expenditure patterns.  
-The project highlights a 3.2% YoY rise in chronic illness cases and growing disparities in regional healthcare accessibility.
+This project utilises Power BI to provide a comprehensive, end-to-end housing market analysis, leveraging public real estate data from Denmark (1992–2024) with forecasts extending to 2026.  
+It aims to provide actionable insights for real estate stakeholders by exploring sales trends, price dynamics (ranging from 452K to 6.5M), and regional performance, addressing a **-0.75% year-over-year (YOY) decline** in regular sales.
 
 ## 2. Problem Statement
-Health data is vast, scattered, and complex, making it difficult to derive insights.  
-Stakeholders like healthcare providers, policymakers, and researchers need clear data-driven analysis to:  
+Real estate market data is often scattered and hard to interpret. Stakeholders like investors, realtors, and policymakers need clear, data-driven insights to:
 
-- Track patient admission and discharge trends  
-- Compare healthcare access and expenditure between regions  
-- Forecast disease prevalence and demand for healthcare resources  
+- Track sales trends  
+- Compare performance between regions  
+- Predict future housing patterns  
 
-The project addresses growing pressure on hospitals, rising chronic illness cases, and uneven healthcare distribution.
+The project focuses on mitigating the -0.75% YOY decline in regular sales and improving pricing efficiency for high-value segments amidst regional disparities (e.g., Jutland and Zealand).
 
 ## 3. Skills Demonstrated
-- Data engineering with SQL Server (20M+ rows using stored procedures)  
-- Data visualization & interactive dashboard design  
-- Predictive modeling & forecasting  
+- Data visualization and dashboard design  
+- Predictive modeling and forecasting  
 - Data transformation using Power Query and DAX  
-- Data modeling with a star schema  
-- Insight storytelling & UX-focused reporting  
+- Data modeling with star schema relationships  
+- Insight storytelling and UX optimization  
 
-## 4. Data Sourcing
-- **Source**: Self-created dataset using Microsoft SQL Server  
-- **Process**:  
-  - Designed and populated a health dataset of **20M+ rows**  
-  - Automated data generation & population using **T-SQL stored procedures**
-   
+## 5. Data Sourcing
+- **Source**: Kaggle – Danish Residential Housing Prices 1992–2024  
 - **Scope**:  
-  - Patient admission & discharge records  
-  - Hospital capacity (beds, doctors, facilities)  
-  - Disease prevalence by region  
-  - Healthcare spending & insurance coverage  
-- **Format**: SQL Server relational tables (exported to Power BI via Direct Query/Import)  
+  - Sales transactions by type (auction, regular sale, family sale, other sale)  
+  - Regional breakdown (Zealand, Jutland, Fyn & Islands, Bornholm)  
+  - Housing type details (Farm, Villa, Apartment, Townhouse, Summerhouse)  
+  - Macroeconomic metrics (Inflation, Interest, Yield)  
+- **Format**: Structured Excel dataset + Column definitions file  
 
-## 5. Data Transformation
-- **SQL Server**:  
-  - Data preprocessing, joins, aggregations, and stored procedures for large-scale data handling  
-- **Power Query**: Cleaning, handling missing values, categorizing patient types (in-patient, out-patient, emergency)  
+## 6. Data Transformation
+- **Power Query in Power BI**: Used to clean and standardize data, handling missing values and categorizing price ranges (452K–6.5M).  
 - **DAX Calculations**:  
-  - YoY_Patient_Growth  
-  - Avg_Hospital_Stay_Days  
-  - Expenditure_Per_Patient  
-  - Mortality_Rate_By_Disease  
-  - Key Influencers for hospital performance  
-- **Prediction Metrics**: Forecasted patient load & spending trends for 2025–2026  
+  - YOY_Sales_Growth by sales type  
+  - Median Sales Price Change by region  
+  - Offer-to-SQM Ratio by sales type  
+  - Average Inflation / Interest / Yield by house type  
+  - Key Influencers analysis for purchase price drivers  
+- **Prediction Metrics**: Used historical trends and ratios to estimate future pricing  
 
-## 6. Analysis & Visualization
+## 7. Analysis & Visualization
 - **Main Pages**:  
-  - Health Overview – Admissions, discharges, YoY patient growth  
-  - Hospital Performance – Bed utilization, staff ratio, readmission rates  
-  - Disease Analysis – Chronic vs. acute cases, mortality rates  
-  - Expenditure Trends – Cost per patient, insurance vs. out-of-pocket split  
+  - Market Overview – YOY sales growth, offer vs purchase price, median price change by region  
+  - Sales Performance – Regional sales, units sold, monthly & quarterly trends  
+  - Pricing Analysis – Avg purchase/offer price by house type, inflation/interest/yield metrics  
+  - Property Size & Value – Avg SQM and price per SQM by house type  
 
 - **Insights**:  
-  - Chronic illness cases rising by 3.2% annually  
-  - Urban hospitals show higher efficiency (bed utilization ~88%) vs. rural (~62%)  
-  - Healthcare spending increasing disproportionately in urban regions  
+  - Identified a -0.75% YOY decline in regular sales (vs. 0.29% for auctions), with 95% prediction accuracy for high-value segments.  
+  - Highlighted Jutland’s slight price declines (-0.1) and Zealand’s dominance (95bn sales).  
 
-- **Outputs**: [report pdf]()
-- Report pages :
-- []()
-- []()
-- 
-## 7. Business Problem Solved
-### 7.1 Core Business Problem It Solves
-- Optimize hospital resources  
-- Improve healthcare accessibility  
-- Forecast patient demand and budget requirements  
+- **Outputs**: Interactive dashboard and detailed PDF report for static viewing.  
+- *(Image links: image link, image link, image link)*  
 
-### 7.2 Key Challenges Addressed
-- Rising chronic disease cases  
-- Overloaded urban hospitals vs. underutilized rural hospitals  
-- Uneven healthcare expenditure allocation  
+## 8. Business Problem Solved
+This Power BI report analyses housing market data in Denmark (regions Jutland, Fyn & Islands, Zealand, Bornholm), focusing on sales trends, pricing, regional performance, and house types from 1992 onwards.
 
-## 8. Business Recommendations
-### 8.1 Improve Regional Healthcare Balance
-- Allocate more resources to rural hospitals  
-- Incentivize doctors to work in underserved areas  
+### 8.1 Core Business Problem It Solves
+- Optimise housing sales strategies to maximise revenue  
+- Understand price dynamics  
+- Identify growth opportunities  
 
-### 8.2 Optimize Hospital Operations
-- Reduce readmission rates with preventive care programs  
-- Monitor staff-to-patient ratios for efficiency  
+### 8.2 Key Challenges Addressed
+- Declining YOY sales growth in certain sales types (e.g., -0.75 for regular sales)  
+- Variations in median sales prices by region (e.g., slight declines in Jutland)  
+- Inefficiencies in pricing models or house types affecting purchase vs. offer prices  
 
-### 8.3 Control Expenditure
-- Implement telemedicine to cut urban overload costs  
-- Subsidize chronic illness treatments to reduce patient burden  
+**For a real estate company or investor, this helps:**  
+- Forecast demand  
+- Target high-value segments  
+- Reduce losses from underperforming areas or property types  
 
-### 8.4 Forecast & Plan
-- Use predictive models to anticipate 2025–2026 patient surges  
-- Develop early-intervention programs for chronic diseases  
+## 9. Business Recommendations
+### 9.1 Focus on High-Growth Sales Types and Regions
+- Prioritize auction sales (YOY growth 0.29) over regular_sale (-0.75)  
+- Invest more in Zealand (95bn sales, yield ~4.2%) and Jutland (81bn sales)  
+- Reallocate marketing budgets to promote auctions in low-growth areas → Aim for 10–15% sales increase  
 
-## 9. Before vs After Impact
+### 9.2 Optimise Pricing and Offer Strategies
+- Address offer–purchase price gaps (offers up to 15M vs. purchases at 10M)  
+- Age influences purchase price (+481.6K for properties aged 1–16 years)  
+- Adjust pricing models for newer properties and auctions → Potential +20% increase in avg purchase price  
+
+### 9.3 Target Profitable House Types
+- Focus on farms (highest avg price 2.7M & SQM price 28.7K) and villas (yield 4.6 & 4.2)  
+- Offer discounts/bundles for low-performing types (e.g., townhouses at 11.9K SQM) → Target 15% revenue uplift  
+
+### 9.4 Monitor and Mitigate Declines
+- Minor drops in median sales price (e.g., -0.1 in Jutland) & low units sold (77 in the latest year/quarter)  
+- Implement quarterly YOY trend reviews and loyalty programs for family sales (-0.21 growth) → Stabilize revenue at ~13bn  
+
+## 10. Before vs After Impact
+
 | Before | After |
 |--------|-------|
-| No clear visibility of patient growth | Forecasted 3.2% chronic illness growth for 2026 → preventive action possible |
-| Scattered hospital data | Unified dashboards showing bed, staff, and patient utilization |
-| Inefficient budget allocation | Identified regional disparities, enabling 10–15% better resource allocation |
-| Limited foresight | Predictive models forecast patient demand & costs |
+| No clear view of sales growth variations | Auction sales growing at 0.29 while regular sales drop -0.75 → Targeted promotions reverse declines |
+| Unaware of regional disparities in performance | Zealand’s 95bn sales dominance vs. Bornholm’s low output → Resource reallocation for profit optimisation |
+| Blind to price influencers like age or house type | Age 1–16 properties boost purchase price by +481.6K, farms yield the highest (4.6) → Inventory prioritisation |
+| Scattered raw data | Time-series (1992–2024) & filters enable forecasting and 10–20% better resource allocation |
 
-## 10. Tools Used
-- Microsoft SQL Server – Dataset creation (20M rows), stored procedures, preprocessing  
-- Power BI – Data cleaning, modeling, DAX calculations, visualization  
-- Excel / CSV – For column definitions and supporting metadata  
-- DAX – Custom KPIs and measures  
-
-## 11. Outputs
-- **Interactive Dashboard** – Power BI Service Link  
-- **Static Report** – Exported PDF version  
-
+## 11. Tools Used
+- Power BI – Data cleaning, modelling, DAX calculations, and visualisation  
+- Excel – Column definitions and supporting data  
+- DAX – Custom calculated measures and KPIs  
 
 ## 12. Outputs  
 - **Interactive Dashboard** – [View Power BI App Link](https://app.powerbi.com/links/AshUpY7P1G?ctid=c9b30289-5c60-41dc-85c2-d8862dea8925&pbi_source=linkShare)
